@@ -1,7 +1,19 @@
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * ラムダ式、メソッド参照、Stream API、Optionalによる一覧処理を示します。
+ */
 public class LambdasAndStreams {
+    /** このサンプルクラスのインスタンス化を防ぎます。 */
+    private LambdasAndStreams() {
+    }
+
+    /**
+     * 名前一覧をInputとして抽出・変換・集計・検索し、そのOutputを表示します。
+     *
+     * @param args コマンドライン引数（未使用）
+     */
     public static void main(String[] args) {
         List<String> names = List.of("Taro", "Hanako", "Jiro", "Nanami");
 

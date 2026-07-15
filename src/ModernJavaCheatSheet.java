@@ -9,6 +9,7 @@ import java.util.concurrent.Executors;
  * 各メソッドのDocコメントに、導入バージョンと導入背景を記載しています。</p>
  */
 public class ModernJavaCheatSheet {
+    /** このチートシートクラスのインスタンス化を防ぎます。 */
     private ModernJavaCheatSheet() {
     }
 
@@ -173,8 +174,14 @@ public class ModernJavaCheatSheet {
 record WorkItem(String title, TaskStatus status) {
 }
 
+/**
+ * タスクの進行状態を表します。
+ */
 enum TaskStatus {
+    /** まだ作業を開始していない状態です。 */
     TODO,
+    /** 現在作業している状態です。 */
     DOING,
+    /** 作業が完了した状態です。 */
     DONE
 }

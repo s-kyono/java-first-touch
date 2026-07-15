@@ -1,4 +1,16 @@
+/**
+ * Javaの基本型、参照型、定数、ローカル変数の型推論を示します。
+ */
 public class VariablesAndTypes {
+    /** このサンプルクラスのインスタンス化を防ぎます。 */
+    private VariablesAndTypes() {
+    }
+
+    /**
+     * 型ごとの値を作成し、文字列結合や税込価格の計算結果を表示します。
+     *
+     * @param args コマンドライン引数（未使用）
+     */
     public static void main(String[] args) {
         // プリミティブ型
         byte smallNumber = 127;

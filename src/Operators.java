@@ -1,4 +1,16 @@
+/**
+ * 算術、比較、論理、代入、三項演算子の使い方を示します。
+ */
 public class Operators {
+    /** このサンプルクラスのインスタンス化を防ぎます。 */
+    private Operators() {
+    }
+
+    /**
+     * 二つの整数をInputとして各演算を行い、その結果を表示します。
+     *
+     * @param args コマンドライン引数（未使用）
+     */
     public static void main(String[] args) {
         int a = 10;
         int b = 3;

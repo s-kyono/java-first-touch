@@ -1,4 +1,16 @@
+/**
+ * 条件分岐と繰り返しによる処理の流れを示します。
+ */
 public class ControlFlow {
+    /** このサンプルクラスのインスタンス化を防ぎます。 */
+    private ControlFlow() {
+    }
+
+    /**
+     * 点数や月を条件分岐で変換し、代表的なループを順に実行します。
+     *
+     * @param args コマンドライン引数（未使用）
+     */
     public static void main(String[] args) {
         int score = 82;
 

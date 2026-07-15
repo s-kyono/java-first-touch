@@ -1,4 +1,16 @@
+/**
+ * 一次元・二次元配列の生成、更新、走査、コピーを示します。
+ */
 public class Arrays {
+    /** このサンプルクラスのインスタンス化を防ぎます。 */
+    private Arrays() {
+    }
+
+    /**
+     * 数値配列をInputとして並べ替えやコピーを行い、処理結果を表示します。
+     *
+     * @param args コマンドライン引数（未使用）
+     */
     public static void main(String[] args) {
         int[] numbers = {5, 2, 8, 1, 4};
         System.out.println("要素数: " + numbers.length);
