@@ -39,3 +39,15 @@ java -cp out PatternMatching
 | `LambdasAndStreams.java` | ラムダ式、Stream API、`Optional` |
 | `RecordsEnumsAndSealedTypes.java` | record、enum、sealed 型 |
 | `PatternMatching.java` | `instanceof` と `switch` のパターンマッチング |
+
+## モダンJava・チートシート
+
+`ModernJavaCheatSheet.java` は、Java 8からJava 21までに追加された便利な機能を、
+小さなInput/Outputメソッドとしてまとめています。
+
+各メソッドのDocコメントでは、次の内容を確認できます。
+
+- 機能や標準APIが導入されたJavaバージョン
+- その機能が導入された背景
+- 使用時の注意点
+- 公式JEPへのリンク
